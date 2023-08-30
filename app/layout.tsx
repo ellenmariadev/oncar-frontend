@@ -1,6 +1,9 @@
+"use client";
+
 import "../sass/main.scss";
 import type { Metadata } from "next";
 import { Inria_Sans } from "next/font/google";
+import Providers from "@/providers";
 
 const inriaSans = Inria_Sans({
   subsets: ["latin"],
@@ -19,7 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={inriaSans.className}>{children}</body>
+      <body className={inriaSans.className}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }
