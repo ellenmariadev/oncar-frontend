@@ -131,7 +131,11 @@ export default function Home() {
                   />
                 ))}
           </div>
-          {isError && <p className="errorMessage">Error! Tente outra vez.</p>}
+          {isError && (
+            <p style={{ textAlign: "center" }} className="errorMessage">
+              Error! Tente outra vez.
+            </p>
+          )}
           {paginatedVehicles?.length > 0 ? (
             <Pagination
               currentPage={currentPage}
