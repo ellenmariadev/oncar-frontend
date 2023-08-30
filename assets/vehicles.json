@@ -1,0 +1,30 @@
+{
+  "mercedes": [
+    {
+      "src": "https://mediacloud.carbuyer.co.uk/image/private/s--6gi21nnk--/v1608198949/autoexpress/2020/12/GLE-Coupe-front-tracking.jpg",
+      "alt": "Image 1 for carousel"
+    },
+    {
+      "src": "https://mediacloud.carbuyer.co.uk/image/private/s--hMZMlDmm--/f_auto,t_content-image-full-desktop@1/v1608198966/autoexpress/2020/12/GLE-Coupe-rear-tracking.jpg",
+      "alt": "Image 2 for carousel"
+    },
+    {
+      "src": "https://mediacloud.carbuyer.co.uk/image/private/s--WuEa_de5--/f_auto,t_content-image-full-desktop@1/v1608198951/autoexpress/2020/12/GLE-Coupe-front-cabin.jpg",
+      "alt": "Image 3 for carousel"
+    }
+  ],
+  "bmw": [
+    {
+      "src": "https://mediacloud.carbuyer.co.uk/image/private/s--0ojI46Yv--/f_auto,t_content-image-full-desktop@1/v1646384691/autoexpress/2022/03/BMW%202%20Series%20Coupe%202022-4.jpg",
+      "alt": "Image 1 for carousel"
+    },
+    {
+      "src": "https://mediacloud.carbuyer.co.uk/image/private/s--wF86ElLj--/f_auto,t_content-image-full-desktop@1/v1646384666/autoexpress/2022/03/BMW%202%20Series%20Coupe%202022-3.jpg",
+      "alt": "Image 2 for carousel"
+    },
+    {
+      "src": "https://mediacloud.carbuyer.co.uk/image/private/s--l3ZUkM8Q--/f_auto,t_content-image-full-desktop@1/v1646384689/autoexpress/2022/03/BMW%202%20Series%20Coupe%202022-2.jpg",
+      "alt": "Image 3 for carousel"
+    }
+  ]
+}
