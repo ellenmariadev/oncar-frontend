@@ -1,0 +1,16 @@
+@use "@/sass/abstracts" as *;
+
+.confirmation {
+  text-align: center;
+  svg {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: lightgreen;
+  }
+  p {
+    text-align: center;
+    &:nth-child(3) {
+      color: $accent-color;
+    }
+  }
+}
