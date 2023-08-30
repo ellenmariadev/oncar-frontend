@@ -1,0 +1,109 @@
+@use "../abstracts/" as *;
+
+.form {
+  padding-inline: 2rem;
+  background: linear-gradient(135deg, #f1fcff 0%, #edfbfe 34.98%, #fff 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  max-width: 500px;
+  display: grid;
+  place-content: center;
+  position: absolute;
+  min-height: 100vh;
+  top: 0;
+  right: 0;
+  padding: 2em;
+  margin-bottom: 10px;
+
+  .carousel {
+    height: 200px;
+  }
+
+
+  &__closebutton {
+    border: none;
+    width: max-content;
+    place-self: end;
+    background-color: transparent;
+    font-size: 2rem;
+    color: $accent-color;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+
+  &__year {
+    background-color: $lighten-gray-color;
+    padding: 0.1em 0.5em;
+    border-radius: 12px;
+    color: $dark-color;
+    width: max-content;
+  }
+
+  &__brand {
+    font-size: 2rem;
+  }
+
+  &__model {
+    color: $accent-color;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__price {
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: $dark-color;
+  }
+
+  img {
+    margin: 2rem 0;
+    border-radius: 20px;
+  }
+
+  .contact {
+    color: $dark-color;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+
+
+    &::before {
+      content: "";
+      width: 7px;
+      height: 18px;
+      background-color: $accent-color;
+      display: block;
+      top: 0;
+      left: 0;
+      position: absolute;
+    }
+  }
+
+  form {
+    display: grid;
+    margin-top: 1rem;
+  }
+
+  .button {
+    border-radius: 6px;
+    background: $accent-color;
+    border: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    place-self: end;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
+

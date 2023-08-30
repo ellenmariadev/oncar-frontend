@@ -1,0 +1,68 @@
+@use "../../sass/abstracts/" as *;
+
+.relative {
+  position: relative;
+  p {
+    padding-top: 4px;
+  }
+}
+
+.label {
+  transition: all 0.1s ease-in-out;
+  position: absolute;
+  top: 12%;
+  left: 10px;
+  transform: scale(0.95);
+  opacity: 1;
+  pointer-events: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: $dark-color;
+
+  strong {
+    color: red;
+  }
+}
+
+.input:focus ~ label,
+.input:not(:placeholder-shown) ~ .label {
+  top: 12%;
+  left: 10px;
+  background: transparent;
+  color: $dark-color;
+  opacity: 1;
+}
+
+.error {
+  border-color: red !important;
+}
+
+.input {
+  outline-color: $accent-color;
+  border: 2px solid $lighten-gray-color;
+  padding: 25px 10px 8px 10px;
+  width: 100%;
+  font-size: 12px;
+  border-radius: 10px;
+  font-weight: 400;
+  color: $gray-color;
+  margin-right: -2rem;
+  background: rgba(255, 255, 255, 0.52);
+  margin-bottom: 12px;
+
+  &::placeholder {
+    color: $lighten-gray-color;
+  }
+
+  &:focus-visible {
+    border-color: $accent-color;
+  }
+
+  &__icon {
+    border: none;
+    background: none;
+    pointer-events: none;
+    margin-top: 0.1em;
+    outline: none;
+  }
+}

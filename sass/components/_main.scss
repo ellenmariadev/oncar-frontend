@@ -1,0 +1,29 @@
+@use "../abstracts/" as *;
+
+.main {
+  place-content: center;
+  margin-top: 2rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 310px));
+  gap: 3em;
+  place-content: center;
+  margin-top: 2rem;
+}
+
+.grid-main-aside {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  place-content: center;
+  position: relative; 
+}
+
+.emptyMessage {
+  color: $gray-color;
+  text-align: center;
+  font-size: 1.2rem;
+}

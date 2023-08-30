@@ -1,0 +1,60 @@
+@use "../abstracts/" as *;
+
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+}
+
+.slideHidden {
+  display: none;
+}
+
+.arrow {
+  position: absolute;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.arrowLeft {
+  left: 0.3rem;
+}
+
+.arrowRight {
+  right: 0.3rem;
+}
+
+.indicators {
+  display: flex;
+  position: absolute;
+  bottom: 0.7rem;
+}
+
+.indicator {
+  background-color: $accent-color;
+  height: 0.4rem;
+  width: 0.4rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.indicatorInactive {
+  background-color: $lighten-gray-color;
+}
+
+.imageCarousel {
+  width: fit-content;
+}
