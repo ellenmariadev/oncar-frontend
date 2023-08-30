@@ -1,0 +1,25 @@
+@use "@/sass/abstracts" as *;
+
+.pagination {
+  display: flex;
+  gap: 1rem;
+  place-content: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  color: $dark-color;
+  button {
+    border: none;
+    color: $dark-color;
+    cursor: pointer;
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
+    &:hover {
+      background-color: lightgrey;
+    }
+    &:disabled {
+      background-color: transparent;
+      cursor: not-allowed;
+      color: lightgray;
+    }
+  }
+}
