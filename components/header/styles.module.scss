@@ -1,0 +1,14 @@
+@use "@/sass/abstracts" as *;
+
+.header {
+  background-color: rgba(128, 128, 128, 0.187);
+  padding: 2.5rem clamp(1rem, 10vw, 4rem);
+  display: flex;
+  gap: 6rem;
+  place-items: center;
+
+  @media(max-width: 680px) {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
