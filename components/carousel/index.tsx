@@ -31,7 +31,6 @@ const Carousel = ({ brand }: IBrand) => {
           <Image
             data-testid={"imageCarousel" + index}
             src={item.src}
-            alt={item.alt}
             width={300}
             height={200}
             key={index}
