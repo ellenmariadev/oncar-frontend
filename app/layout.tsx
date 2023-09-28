@@ -1,5 +1,3 @@
-"use client";
-
 import "../sass/main.scss";
 import type { Metadata } from "next";
 import { Inria_Sans } from "next/font/google";
