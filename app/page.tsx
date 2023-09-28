@@ -17,6 +17,7 @@ import {
   SearchBar,
   Form,
 } from "@/components";
+import Image from "next/image";
 
 export default function Home() {
   const [query, setQuery] = useState<string>("");
@@ -119,6 +120,7 @@ export default function Home() {
 
         <main className="main">
           <div className="card-wrapper">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.carpemundi.com.br%2Fwp-content%2Fuploads%2F2018%2F08%2Fdream-beach-bali-nusa.jpg&f=1&nofb=1&ipt=4ac35782619c2e2b0e8215209029999e4dd81e12df951d8c515add3f0a923dc7&ipo=images" />
             {isLoading
               ? [...Array(pageSize).keys()].map((i) => <Skeleton key={i} />)
               : paginatedVehicles?.map((vehicle: VehicleData) => (
