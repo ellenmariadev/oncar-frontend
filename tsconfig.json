@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "helpers/formatNumber.ts", "assets/logo.js", "assets/search.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "helpers/formatNumber.ts", "assets/logo.js", "assets/search.js", "__tests__/mock/mockData.js"],
   "exclude": ["node_modules"]
 }
