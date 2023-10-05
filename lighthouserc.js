@@ -1,5 +1,6 @@
 module.exports = {
   ci: {
+    staticDistDir: './.next/static',
     assert: {
       preset: "lighthouse:no-pwa",
       assertions: {
